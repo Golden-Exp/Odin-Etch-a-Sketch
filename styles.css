@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+.header {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+h1 {
+    margin-bottom: 10px;
+}
+button {
+    margin-bottom: 5px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+#container {
+    display: flex;
+    background-color: aqua;
+    height: 550px;
+    width: 550px;
+    margin: auto;
+    flex-wrap: wrap;    
+}
+.one {
+    box-sizing: border-box;
+    background-color:rgb(243, 240, 240);
+    border: 0.5px solid black;
+    flex: 1 1 auto;
+}
