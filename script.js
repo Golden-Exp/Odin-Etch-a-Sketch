@@ -8,8 +8,12 @@ function createGrid(size) {
         square.classList.add("one");    
         square.style.width = `${550/size}px`
         square.style.height = `${550/size}px`
+        let currop = 0.1;
+        square.style.opacity = currop
         square.addEventListener("mouseover", () => {
             square.style.background = getRandomColor()
+            currop += 0.1
+            square.style.opacity = currop
         })
         container.appendChild(square);
     }
